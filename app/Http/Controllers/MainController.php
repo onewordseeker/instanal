@@ -283,4 +283,8 @@ class MainController extends Controller
         $list->delete();
         return view('lists')->with('success', 'List Deleted');
     }
+
+    public function create_list_items(){
+
+    }
 }
