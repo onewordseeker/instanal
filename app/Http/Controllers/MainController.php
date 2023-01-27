@@ -267,4 +267,20 @@ class MainController extends Controller
             return view('lists')->with('error', 'Please Login To Create A list');
         }
     }
+    public function update_list(Request $req){
+        $list = Lists::find($req->list_id);
+        if($req->name){
+            $list['name'] = $req->name;
+            $list->update();
+            return view('lists')->with('success', 'List Updated');
+        }
+        else{
+            return view('lists')->with('error', 'Please Enter Valid Details');
+        }
+    }
+    public function delete_list(Request $req){
+        $list = Lists::find($req->id);
+        $list->delete();
+        return view('lists')->with('success', 'List Deleted');
+    }
 }
