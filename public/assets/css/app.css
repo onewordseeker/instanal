@@ -1,0 +1,76 @@
+h4 {
+    color: #ffba00;
+}
+body {
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    color: white;
+}
+/* buttons */
+.btn--primary {
+    background-color: #ffba00;
+}
+.btn--primary:hover {
+    background-color: transparent;
+    color: #ffba00;
+    border: 1px solid #ffba00;
+}
+.btn--submit {
+    background-color: #ffba00;
+}
+.btn--submit:hover {
+    background-color: transparent;
+    color: #ffba00;
+    border: 1px solid #ffba00;
+}
+.btn--danger {
+    background-color: #00a654;
+    border-color: #00a654;
+}
+.btn--danger:hover {
+    color: #00a654;
+    background-color: transparent;
+    border-color: #00a654 !important;
+}
+.btn--warning {
+    color: white;
+    background-color: #5197f1;
+}
+.btn--warning:hover {
+    color: #5197f1;
+    background-color: transparent;
+    border-color: #5197f1;
+}
+/* footer */
+.footer {
+    background-color: black;
+    /* width: 100%; */
+}
+/* tables */
+.main-wrapper th {
+    color: white;
+}
+a {
+    color: white !important;
+}
+a:hover span {
+    color: white;
+}
+
+/* cards */
+.primary-card {
+    background-color: transparent;
+    border-color: #ffba00;
+    color: #ffba00 !important;
+    transition: all 0.3s;
+}
+h2 {
+    color: #ffba00 !important;
+}
+.primary-card:hover {
+    background-color: #ffba00;
+    color: white !important;
+}
+.primary-card:hover h2 {
+    color: white !important;
+}
